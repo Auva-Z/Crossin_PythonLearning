@@ -78,4 +78,4 @@ with open('original_text.txt', 'r') as f:
 with open('translated_text.txt', 'w') as f:
     f.writelines(translate(original_text_list))
 
-print '翻译成功！'
+print 'translate successful!'
